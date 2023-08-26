@@ -10,11 +10,5 @@ public class RWOnly {
     public void setName(String name) {
         this.name = name;
     }
-
-    public static void main(String[] args) {
-          RWOnly obj = new RWOnly();
-          obj.setName("Ankit");
-        System.out.println(obj.getName());
-    }
 }
 
